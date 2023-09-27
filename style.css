@@ -48,6 +48,10 @@ body{
         width: 210px;
     }
 
+    .nav-icons, #add, #detail{
+        -webkit-filter: invert(1);
+        filter: invert(1);
+    }
 
 /* styling header text and contents */
     header{
