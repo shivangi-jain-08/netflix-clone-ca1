@@ -114,12 +114,9 @@ body{
         margin-bottom: 20px;
     }
 
+
     .img-5{
         width: 280px;
-    }
-
-    .top-5-card{
-        width: 270px;
     }
 
     .top1{
@@ -128,9 +125,20 @@ body{
         align-items: center;
     }
 
+    .top-5-card{
+        width: 270px;
+    }
+
     .rank-img, .top-5-img{
         height: 210px;
     }
+
+    #content{
+        color: white;
+        padding-left: 75px;
+        padding-top: 120px;
+    }
+
 
 /* styling footer */
     footer{
