@@ -149,11 +149,12 @@ body{
 
     #social{
         width: 180px;
-        background-color: #464646;
     }
 
     .social-img{
         height: 30px;
+        -webkit-filter: invert(1);
+        filter: invert(1);
     }
 
     .footer-menu{
