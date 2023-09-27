@@ -109,6 +109,12 @@ body{
         width: 1460px;
     }
 
+    #content{
+        color: white;
+        padding-left: 75px;
+        padding-top: 120px;
+    }
+
     h3{
         margin-top: 60px;
         margin-bottom: 20px;
@@ -133,11 +139,6 @@ body{
         height: 210px;
     }
 
-    #content{
-        color: white;
-        padding-left: 75px;
-        padding-top: 120px;
-    }
 
 
 /* styling footer */
@@ -148,11 +149,13 @@ body{
 
     #social{
         width: 180px;
-        background-color: white;
+        background-color: #464646;
+        
     }
 
     .social-img{
         height: 30px;
+        opacity: 50%;
     }
 
     .footer-menu{
