@@ -150,12 +150,10 @@ body{
     #social{
         width: 180px;
         background-color: #464646;
-        
     }
 
     .social-img{
         height: 30px;
-        opacity: 50%;
     }
 
     .footer-menu{
