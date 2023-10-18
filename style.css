@@ -27,7 +27,7 @@ body{
 
 /* styling top section */
     #top{
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(./assets/Title-Image.png);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ) , url(./assets/Title-Image.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding-left: 75px;
@@ -51,6 +51,10 @@ body{
     .nav-icons, #add, #detail{
         -webkit-filter: invert(1);
         filter: invert(1);
+    }
+
+    #nav-logo1{
+        display: none;
     }
 
 /* Styling header text and contents */
@@ -186,5 +190,115 @@ body{
         border-radius: 2px;
         margin: 25px 0;
     }
+
+
+@media screen and (max-width: 500px) {
+    .space-between, .space-evenly{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    #content{
+        padding-left: 0px;
+        padding-top: 20px;
+        margin: 30px auto 30px auto;
+    }
+
+    #body{
+        background-color: #141414;
+        overflow-x: hidden;
+    }
+
+    #nav-left, #nav-right{
+        display: none;
+    }
+
+    #nav-logo1{
+        display: block;
+    }
+    nav{
+        height: 50px;
+        background-color: #141414;
+        width: 100vw;
+    }
+
+    header{
+        scale: 0.5;
+        top: 10vh;
+        left: -40px
+    }
+
+    #header-buttons{
+        justify-content: flex-start;
+    }
+
+    #play, #details{
+        justify-content: space-evenly;
+        margin-right: 25px;
+    }
+
+    #top{
+        height: 34vh;
+        width: 100vw;
+        background: url(./assets/Title-Image.png);
+        background-size: contain;
+        background-position-y: 50px;
+        background-repeat: no-repeat;
+        padding-top: 0px;
+        padding-left: 0;
+    }
+
+    .images-5{
+        width: 100vw;
+    }
+
+    #add{
+        position: absolute;
+        top: 25vh;
+        right: 20px;
+    }
+
+    .img-5{
+        margin: 30px auto 30px auto;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .top-5-card{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    #spl{
+        flex-wrap: wrap;
+        width: 100vw;
+        position: static;
+    }
+
+    footer{
+        padding-left: 20px;
+        margin: auto;
+        width: 100vw;
+    }
+
+    .menu-card{
+        margin-right: 10px;
+    }
+
+    #social{
+        justify-content: space-between;
+        margin: auto;
+
+    }
+}
 
 
